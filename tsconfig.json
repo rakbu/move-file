@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "module": "CommonJS",
+    "lib": [
+      "DOM",
+      "ES5"
+  ],
+    "strict": true,
+    "noEmitHelpers": false,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  }
+}
